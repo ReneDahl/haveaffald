@@ -1,0 +1,19 @@
+body {
+  background-color: #336633;
+}
+
+.logo {
+  width: 300px;
+}
+
+.logo-text {
+  font-family: Pacifico;
+  font-size: 50pt;
+  color: white;
+  margin-top: 10%;
+}
+
+@font-face {
+  font-family: "Pacifico";
+  src: url("style/fonts/Pacifico-Regular.ttf");
+}
