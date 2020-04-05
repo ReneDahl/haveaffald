@@ -1,6 +1,4 @@
 body {
-  background-color: #336633;
-  color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -10,9 +8,20 @@ body {
 
 .logo-text {
   font-family: Pacifico;
-  font-size: 50pt;
+  font-size: 24pt;
   color: white;
-  margin-top: 10%;
+}
+
+.call-to-action-header {
+  font-family: Pacifico;
+  font-size: 48pt;
+  color: white;
+}
+
+.call-to-action-body {
+  font-family: Pacifico;
+  font-size: 38pt;
+  color: white;
 }
 
 .content {
@@ -23,5 +32,4 @@ body {
   font-family: "Pacifico";
   src: url("style/fonts/Pacifico-Regular.ttf");
   src: url("style/fonts/Pacifico-Regular.eot");
-  
 }

@@ -1,0 +1,16 @@
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.bg-cover {
+  background-size: cover;
+  color: white;
+  background-position: center center;
+  position: relative;
+  background-image: url(../images/garden.gif);
+  min-height: 500px;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+}
