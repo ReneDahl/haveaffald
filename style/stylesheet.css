@@ -22,4 +22,6 @@ body {
 @font-face {
   font-family: "Pacifico";
   src: url("style/fonts/Pacifico-Regular.ttf");
+  src: url("style/fonts/Pacifico-Regular.eot");
+  
 }
