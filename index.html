@@ -16,11 +16,9 @@
     ></script>
 
     <script>
-      $.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) 
-      {
-    console.log(data)
-    
-    })
+$.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function(data) {
+  console.log(JSON.stringify(data, null, 2));
+});
 
      
 
