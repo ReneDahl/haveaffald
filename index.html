@@ -16,9 +16,11 @@
     ></script>
 
     <script>
-$.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function(data) {
-  console.log(JSON.stringify(data, null, 2));
-});
+      $.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) 
+      {
+    console.log(data)
+    
+    })
 
      
 
@@ -71,6 +73,7 @@ $.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function(data) {
           >
           <a class="nav-item nav-link" href="#">Hvem er jeg?</a>
           <a class="nav-item nav-link" href="#">Priser</a>
+          <a class="nav-item nav-link" href="#">Her kører jeg</a>
           
           <!-- <a class="nav-item nav-link" href="#">Bestil afhentning</a> -->
         </div>
@@ -150,7 +153,7 @@ $.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function(data) {
             <h6 class="card-price text-center">100 ,-<span class="period"></span></h6>
             <hr>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Få en fyldt en trailer med diverse træ affald og lign</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Få en fyldt en trailer med diverse træ affald og lign.</li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span>Pr. læs</li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span>Inkl. opfyldning og afskaffelse</li>
             
@@ -197,6 +200,46 @@ $.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function(data) {
 
     </div>
   </div>
+</section>
+
+<section class="bg-light">
+  <div class="container pt-5 pb-5 ">
+    <div class="row">
+
+
+      <div class="col-md-12">
+        <h2>
+         Jeg kører I Randers og omegn
+        </h2>
+        <p>Eksempler på steder jeg kører ud, bor du i nærheden og er din by ikke med på listen så ring på + 45 42639243 for aftale.</p>
+   
+          <ul class="list-group">
+            <li class="list-group-item">Asferg</li>
+            <li class="list-group-item">Fårup</li>
+            <li class="list-group-item">Purhus</li>
+            <li class="list-group-item">Råsted</li>
+            <li class="list-group-item">Helsted</li>
+            <li class="list-group-item">Dronningborg</li>
+            <li class="list-group-item">Langå</li>
+            <li class="list-group-item">
+              Vorup
+            
+            </li>
+            <li class="list-group-item">
+              Kristrup
+            </li>
+            <li class="list-group-item">Paderup</li>
+            <li class="list-group-item">Assentoft</li>
+          </ul>
+        
+      </div>
+    </div>
+
+    
+
+   
+  </div>
+
 </section>
 
 </section>
