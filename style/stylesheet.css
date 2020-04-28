@@ -33,3 +33,7 @@ body {
   src: url("/style/fonts/pacifico-regular-webfont.woff2") format("woff2"),
     url("/style/fonts/pacifico-regular-webfont.woff") format("woff");
 }
+
+.offer {
+  background-color: #336633;
+}
