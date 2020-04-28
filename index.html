@@ -16,13 +16,10 @@
     ></script>
 
     <script>
-      $.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) 
-      {
-    console.log(data)
-    
-    })
+   var ip = Request.UserHostAddress
+    var hostname = Request.UserHostName
 
-     
+    console.log(ip)
 
     </script>
     <script>
@@ -164,38 +161,6 @@
       </div> 
 
  
-      <!-- Plus Tier -->
-      <!-- <div class="col-lg-4 mt-5">
-        <div class="card mb-5 mb-lg-0">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Græsklipning</h5>
-            <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
-            <hr>
-            <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Op til 50 kvm </li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Oprydning inkl.</li>
-            
-            </ul>
-            <a href="#" class="btn btn-block btn-success text-uppercase">Button</a>
-          </div>
-        </div>
-      </div>
-  
-      <div class="col-lg-4 mt-5">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
-            <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
-            <hr>
-            <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Oprydning inkl.</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage</li>
-          
-            </ul>
-            <a href="#" class="btn btn-block btn-success text-uppercase">Button</a>
-          </div>
-        </div>
-      </div> -->
 
 
     </div>
